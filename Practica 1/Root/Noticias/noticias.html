@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Noticias</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Diego Baleirón Pais, Andrés Balea Domínguez">
+    <meta name="keywords" content="videojuegos,juegos,videoconsolas,consolas,
+                                    play,xbox,switch,pc,sony,microsoft,nintendo,
+                                    noticias,actualidad,artículos">
+    <meta name="description" content="Página de noticias de videojuegos">
+    <meta name="viewport" content="width=device-width, initial-scale=1, ">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container-lg">
+        <!--Cabecera-->
+        <header class="row">
+            <div class="col-md-3 col-4 d-flex justify-content-center align-items-center">
+                <figure>
+                    <img id="foto_principal" src="../Imagenes/greatballCabecera.webp" width="130" height="130">
+                </figure>
+            </div>
+            <div class="col-md-6 col-8 ">
+                <div class="row titulo_pagina">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <h1 class="titulo">Game-Toss</h1>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-11 d-flex justify-content-center align-items-center">
+                        <form>
+                            <input class="barra_busqueda" type="search">
+                        </form>
+                        <figure>
+                            <img src="../Imagenes/lupita.webp" width="20" height="20">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-6 d-none d-md-block foto_perfil">
+                <figure>
+                    <img id=foto_usuario src="../Imagenes/fondoUsuario.webp" width="80" height="80">
+                </figure>
+            </div>
+            <div class="col-md-2 col-6 d-none d-md-block inicio_registro ">
+                <p><a href="../Perfil/inicioSesion.html ">Inicio Sesión</a> | <a
+                        href="../Perfil/perfil.html ">Registro</a></p>
+            </div>
+
+            <!--Menú de navegación-->
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light bg-light border3">
+                    <div class="container-fluid">
+                        <a href="../index.html" class="navbar-brand">Game-Toss</a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#ElementosMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="ElementosMenu" class="collapse navbar-collapse">
+                            <ul class="navbar-nav ms-1">
+                                <li class="nav-item">
+                                    <a href="../Noticias/noticias.html" class="nav-link">Noticias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Resenhas/reseñas.html" class="nav-link">Reseñas</a>
+                                </li>
+                                <li class="nav-item d-block d-md-none">
+                                    <a href="../Perfil/inicioSesion.html" class="nav-link visible-md">Iniciar Sesión</a>
+                                </li>
+                                <li class="nav-item d-block d-md-none">
+                                    <a href="../Perfil/registro.html" class="nav-link">Registrarse</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!--Filtros de busqueda-->
+        <section class="container-fluid" style="border:1px solid #aaa">
+            <div class="row">
+                <!--Filtro por consola-->
+                <form class="col-1">
+                    <input type="button" value="Consola">
+                </form>
+                <!--Filtro cronologico-->
+                <form class="col-2">
+                    <input type="button" value="Más recientes">
+                </form>
+                <!--Filtro por poularidad-->
+                <form class="col-3">
+                    <input type="button" value="Más populares">
+                </form>
+            </div>
+        </section>
+
+        <!--Bloque central-->
+        <div class="row border">
+            <div class="col-md-8 border">
+                <article class="row">
+                    <div class="col-4 mt-3">
+                        <figure>
+                            <img src="../Imagenes/cargandoArticulo.webp">
+                        </figure>
+                    </div>
+                    <div class="col-8 mt-3">
+                        <h2><a href="Articulos/articulo.html">Titulo articulo</a></h2>
+                        <p>Descripcion articulo</p>
+                    </div>
+                </article>
+                <hr>
+                <article class="row">
+                    <div class="col-4 mt-3">
+                        <figure>
+                            <img src="../Imagenes/cargandoArticulo.webp">
+                        </figure>
+                    </div>
+                    <div class="col-8 mt-3">
+                        <h2><a href="Articulos/articulo.html">Titulo articulo</a></h2>
+                        <p>Descripcion articulo</p>
+                    </div>
+                </article>
+                <hr>
+                <article class="row">
+                    <div class="col-4 mt-3">
+                        <figure>
+                            <img src="../Imagenes/cargandoArticulo.webp">
+                        </figure>
+                    </div>
+                    <div class="col-8 mt-3">
+                        <h2><a href="Articulos/articulo.html">Titulo articulo</a></h2>
+                        <p>Descripcion articulo</p>
+                    </div>
+                </article>
+                <hr>
+                <article class="row">
+                    <div class="col-4 mt-3">
+                        <figure>
+                            <img src="../Imagenes/cargandoArticulo.webp">
+                        </figure>
+                    </div>
+                    <div class="col-8 mt-3">
+                        <h2><a href="Articulos/articulo.html">Titulo articulo</a></h2>
+                        <p>Descripcion articulo</p>
+                    </div>
+                </article>
+                <hr>
+                <article class="row">
+                    <div class="col-4 mt-3">
+                        <figure>
+                            <img src="../Imagenes/cargandoArticulo.webp">
+                        </figure>
+                    </div>
+                    <div class="col-8 mt-3">
+                        <h2><a href="Articulos/articulo.html">Titulo articulo</a></h2>
+                        <p>Descripcion articulo</p>
+                    </div>
+                </article>
+            </div>
+
+            <!--Barra Lateral-->
+            <aside class="col-md-4 border">
+                <div class="row">
+                    <div class="col d-flex justify-content-center mt-3">
+                        <h2>Juego semanal</h2>
+                    </div>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 1</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 2</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 3</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 4</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 5</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 6</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 7</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 8</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 9</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center mt-3">
+                            <fieldset>
+                                <lengend>Juego 10</lengend>
+                                <input type="radio">
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="col d-flex justify-content-center mt-3">
+                        <input class="btn btn-primary" type="submit" value="Vota ahora!">
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="container-fluid" style="border: #aaa;">
+            <form class="col-1">
+                <input type="button" value="Anterior">
+            </form>
+            <form class="col-2">
+                <input type="button" value="1">
+            </form>
+            <form class="col-3">
+                <input type="button" value="2">
+            </form>
+            <form class="col-4">
+                <input type="button" value="3">
+            </form>
+            </form>
+            <form class="col-5">
+                <input type="button" value="Siguiente">
+            </form>
+        </div>
+    </div>
+    <!--Pie de página-->
+    <footer class="bg-dark">
+        <!--Pie de página 1-->
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <img src="../Imagenes/greatballCabecera.webp " width="100 " height="100">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <p class="text-light">Game-Toss es la página independiente sobre videojuegos más grande de
+                                Europa, con noticias, análisis, avances y mucho más. <br><br> Game-Toss.com © 2020 Gamer
+                                Network. Todos los derechos reservados. Ninguna parte de esta web
+                                o de su contenido puede reproducirse sin el permiso expreso del propietario del
+                                copyright.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 border-left border-dark">
+                    <div class="row mt-3">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <h2 class="text-light">Enlaces de interes</h2>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-6 d-flex justify-content-end">
+                            <ul>
+                                <li><a href="../Noticias/noticias.html ">Noticias PC</a></li>
+                                <li><a href="../Noticias/noticias.html ">Noticias Switch</a></li>
+                                <li><a href="../Noticias/noticias.html ">Noticias PS4</a></li>
+                                <li><a href="../Noticias/noticias.html ">Noticias Xbox one</a></li>
+                                <li><a href="../Noticias/noticias.html ">Noticias PS5</a></li>
+                                <li><a href="../Noticias/noticias.html ">Noticias Xbox X</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 d-flex justify-content-start">
+                            <ul>
+                                <li><a href="../Resenhas/reseñas.html ">Reseñas PC</a></li>
+                                <li><a href="../Resenhas/reseñas.html ">Reseñas Switch</a></li>
+                                <li><a href="../Resenhas/reseñas.html ">Reseñas PS4</a></li>
+                                <li><a href="../Resenhas/reseñas.html ">Reseñas Xbox one</a></li>
+                                <li><a href="../Resenhas/reseñas.html ">Reseñas PS5</a></li>
+                                <li><a href="../Resenhas/reseñas.html ">Reseñas Xbox X</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Pie de página 2-->
+        <div class="container-lg">
+            <div class="row justify-content-center pb-1 pt-1 border-top border-light">
+                <div class="col-1  d-flex justify-content-end">
+                    <a href="https://www.facebook.com/ " class="imagenesSegundoFooter "><img
+                            src="../Imagenes/logoFacebook.webp" width="30 " height="30 "></a>
+                </div>
+                <div class="col-1  d-flex justify-content-center">
+                    <a href="https://www.instagram.com/ " class="imagenesSegundoFooter "><img
+                            src="../Imagenes/logoInstagram.webp" width="30 " height="30 "></a>
+                </div>
+                <div class="col-1  d-flex justify-content-start">
+                    <a href="https://twitter.com/ " class="imagenesSegundoFooter "><img
+                            src="../Imagenes/logoTwitter.webp" width="30 " height="30 "></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

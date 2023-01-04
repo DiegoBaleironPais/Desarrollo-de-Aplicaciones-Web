@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "black_ops";
+    src: url("/BlackOpsOne-Regular.ttf");
+}
+
+body,
+html {
+    margin: 0px;
+    font-family: "black_ops"
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#foto_principal {
+    width: calc(100px + 5vw);
+    height: calc(100px + 5vw);
+}*/
+
+.barra_busqueda {
+    padding-right: 10px;
+    width: calc(100px + 20vw);
+}
+
+.titulo {
+    font-family: "black_ops";
+    font-size: calc(20px + 4vw);
+}
+
+.foto_perfil {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.inicio_registro {
+    padding-top: calc(80px);
+    font-size: calc(1.01vw);
+}
+
+#foto_usuario {
+    width: calc(60px + 2vw);
+    height: calc(60px + 2vw);
+}
+
+.titulo_pagina {
+    height: 100px;
+}
